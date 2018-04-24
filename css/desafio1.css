@@ -1,0 +1,207 @@
+* {
+	font-family: 'Open Sans', Arial, sans-serif;
+	color: #313131;
+}
+
+
+header {
+	background-color: #273b47;
+	border-radius: 5px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+figure {
+	margin: 0px 10px 0px;
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+}
+
+nav ul {
+	margin: 0px;
+}
+
+ul li {
+	display: inline-block;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+ul li a {
+	color: white;
+	font-weight: 600;
+	padding: 3px 15px;
+	border-right: 1px solid white;
+}
+
+ul li:nth-child(2) {
+	border-top: 5px solid #7dcd40;
+	
+}
+
+ul li:hover {
+	border-top: 5px solid red;
+}
+
+ul li:last-child a {
+	border-right: none;
+}
+
+ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+h2 {
+	color: #515151;
+}
+
+.logotipo{
+	height: 30px;
+	line-height: 50px;
+}
+
+.boton {
+	color: white;
+	background: #ff4842;
+	border-radius: 3px;
+	border-style: none;
+	font-weight: 600;
+	font-size: 15px;
+	margin: 10px;
+	box-shadow: 0px -3px 0px rgba(0,0,0,0.3) inset;
+}
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.buscador {
+	float: right;
+	margin: 5px 0px;
+	height: 60px;
+}
+
+.buscar {
+	height: 58.9px;
+	border: none;
+	width: 200px;
+	font-size: 20px;
+}
+
+input.lupa {
+    /*width: 40px;
+    height: 40px;*/
+    background-color: #333333;
+    background-image: url(../images/lupa.png);
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 20px 30px;
+}
+
+.portada {
+	position: relative;
+}
+
+.mainimg {
+	width: 1000px;
+	clear: both;
+	margin-bottom: 25px;
+}
+
+.articulo1 {
+	position: absolute;
+	bottom: 60px;
+	left: 25px;
+	background: rgba(255,255,255,0.8);
+	width: 45%;
+	padding: 5px 15px;
+}
+
+.articulo1 p {
+	display: flex;
+	justify-content: space-between;
+	border-top: 1px solid rgba(50,50,50,0.1);
+	padding-top: 15px;
+}
+
+.articulo1 p span img {
+	border-radius: 50%;
+	margin-right: 8px;
+}
+
+.articulo1 p span {
+	display: flex;
+}
+
+
+.articulos {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+}
+
+/*.articulos {
+	display: flex;
+	flex-wrap: wrap;
+}*/
+
+/*.entrada {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 310px;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin: 20px 20px 20px 0px;
+	
+}*/
+
+.entrada h2 {
+	width: 320px;
+}
+
+.entrada p {
+	display: flex;
+	justify-content: space-between;
+}
+
+.pie {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
+	align-items: center;
+}
+
+.pie button {
+	margin-left: 16px;
+	padding: 5px 8px;
+}
+
+.pie button:nth-child(2) {
+	background: none;
+	border: none;
+}
+
+.pie button:nth-child(6)::after {
+	content: ">";
+}
+
+.pie button:last-child::after {
+	content: ">>";
+}
+
+
+
+
